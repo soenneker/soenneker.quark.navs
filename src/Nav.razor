@@ -3,3 +3,7 @@
 <nav @attributes="BuildAttributes()">
     @ChildContent
 </nav>
+
+@code {
+	public override string? Name { get; set; } = "Nav";
+}
